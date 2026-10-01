@@ -1,78 +1,46 @@
-\# 🌐 AI Language Translation Tool
+# 🤖 AI FAQ Chatbot
 
+An AI-powered FAQ chatbot developed as part of the CodeAlpha Artificial Intelligence Internship — Task 2.
 
+The chatbot uses Natural Language Processing (NLP) techniques to understand user questions and find the most relevant answer from a predefined FAQ dataset.
 
-An AI-powered language translation web application built using Python, Streamlit, and Hugging Face Transformers.
+## 🚀 Features
 
+- Interactive Streamlit chatbot interface
+- FAQ-based question answering
+- Natural Language Processing
+- TF-IDF vectorization
+- Cosine similarity
+- Keyword-based question classification
+- Similarity score display
+- Handles unknown questions
+- No external API or API key required
 
+## 🧠 Technologies Used
 
-\## 🚀 Features
+- Python
+- Streamlit
+- Pandas
+- Scikit-learn
+- TF-IDF
+- Cosine Similarity
 
+## ⚙️ How It Works
 
+1. A predefined FAQ dataset contains questions and answers.
+2. User enters a question through the Streamlit interface.
+3. The question is cleaned and processed.
+4. Keyword-based matching checks for common FAQ categories.
+5. TF-IDF and cosine similarity provide a fallback matching method.
+6. The chatbot returns the most relevant answer.
 
-\- Translate text between English and Hindi
-
-\- AI-powered local translation
-
-\- Simple and user-friendly Streamlit interface
-
-\- Source and target language selection
-
-\- Copyable translation output
-
-\- No external translation API required during translation
-
-
-
-\## 🛠️ Technologies Used
-
-
-
-\- Python
-
-\- Streamlit
-
-\- Hugging Face Transformers
-
-\- PyTorch
-
-\- Helsinki-NLP MarianMT
-
-\- SentencePiece
-
-\- Sacremoses
-
-
-
-\## 🤖 Translation Models
-
-
-
-The application uses Helsinki-NLP MarianMT models:
-
-
-
-\- `Helsinki-NLP/opus-mt-en-hi` — English to Hindi
-
-\- `Helsinki-NLP/opus-mt-hi-en` — Hindi to English
-
-
-
-\## 📂 Project Structure
-
-
+## 📂 Project Structure
 
 ```text
-
-CodeAlpha\_LanguageTranslationTool/
-
+CodeAlpha_LanguageTranslationTool/
 │
-
 ├── app.py
-
 ├── requirements.txt
-
 ├── README.md
-
 └── venv/
 
